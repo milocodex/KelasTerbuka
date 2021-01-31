@@ -8,16 +8,14 @@ public class Array {
         //1. Default array values in Java
         String header1 = "1. Default array values in Java";
         System.out.println("\n"+header1);
-        for (int i=0; i < 1; i++){
-            for (int j=0; j < header1.length(); j++) {
-                System.out.print("*");
-            }
-            System.out.printf("\n");
+        for (int i=0; i < header1.length(); i++) {
+            System.out.print("*");
         }
+        System.out.printf("\n");
         //End of Header
 
         System.out.println("String array default values:");
-        String str[] = new String[5];
+        String str[] = new String[5]; //set how many array
         for (String s : str)
             System.out.print(s + " ");
 
@@ -48,7 +46,7 @@ public class Array {
         //2. Accessing Java Array Elements
         String header2 = "2. Accessing Java Array Elements using for Loop";
         System.out.println("\n\n"+header2);
-        for (int i=0; i < 1; i++){
+        for (int i=0; i < 2; i++){
             for (int j=0; j < header2.length(); j++) {
                 System.out.print("*");
             }
@@ -57,8 +55,8 @@ public class Array {
         //End of Header
 
         int[] arrDemo = new int[2];
-        arrDemo[0] = 10;
-        arrDemo[1] = 20;
+        arrDemo[0] = 10; //set array value
+        arrDemo[1] = 20; //set array value
 
         for (int i = 0; i < arrDemo.length; i++)
             System.out.println(arrDemo[i]);
@@ -116,7 +114,7 @@ public class Array {
         //End of Header
 
         // declaring and initializing 2D array
-        int arr[][] = { {2,7,9},{3,6,1},{7,4,2},{9,8,1}  };
+        int arr[][] = { {2,7,9},{3,6,1},{7,4,2},{9,8,1} };
 
         // printing 2D array
         for (int i=0; i< 4 ; i++)
@@ -133,8 +131,8 @@ public class Array {
 
 
 
-        //5. Another Multidimensional Array
-        String header5 = "5. Another Multidimensional Array";
+        //5. Another Multidimensional Array - Print some part of it
+        String header5 = "5. Another Multidimensional Array - Print some part of it";
         System.out.println("\n\n"+header5);
         for (int i=0; i < 1; i++){
             for (int j=0; j < header5.length(); j++) {

@@ -7,8 +7,8 @@ public class OperasiAritmatika {
 
         // Operasi Aritmatika
 
-        int variable1 = 10;
-        int variable2 = 5;
+        int variable1 = 5;
+        int variable2 = 2;
 
         int hasil;
 
