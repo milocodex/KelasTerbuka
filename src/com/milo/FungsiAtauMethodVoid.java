@@ -10,6 +10,7 @@ public class FungsiAtauMethodVoid {
         System.out.println(simple());
 
         fungsiVoid("apa pun");
+        System.out.println(nombor());
 
         selamatPagi("ibu");
         selamatPagi("abah");
@@ -23,6 +24,7 @@ public class FungsiAtauMethodVoid {
     private static float simple(){
         return 10.0f;
     }
+    private static int nombor() {return 8;}
 
     // fungsi atau method tanpa kembalian
     private static void fungsiVoid(String input){

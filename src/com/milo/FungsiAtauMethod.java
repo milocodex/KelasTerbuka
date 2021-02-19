@@ -30,7 +30,7 @@ public class FungsiAtauMethod {
     private static int hitung(int input){ //guna public/private sama tapi di oop akan berbeza penggunaan public/private
         int hasil;
         //hasil = (input + 2) * input;
-        hasil = input * input;
+        hasil = (input+2) * input;
 
         return hasil;
     }
